@@ -1,0 +1,7 @@
+For filter:
+
+#1. On click of nav tab i have passed value in data 
+	- data-filter=".<?php echo $term->slug; ?>" data-count="<?php echo $term->count; ?>" data-cat_id="<?php echo $term->term_id ?>" data-all="no"
+	- screenshot: https://prnt.sc/229p94k , https://prnt.sc/22ad9hs
+#2. Created js on click "nav-item" get post id wise check functio file
+#3. Same for pagination on click call js and and  pass data values 
